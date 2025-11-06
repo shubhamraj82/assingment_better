@@ -21,7 +21,7 @@ from modules.comment.types import (
 class CommentWriter:
     @staticmethod
     def create_comment(*, params: CreateCommentParams) -> Comment:
-        comment_bson = CommentModel(
+        comment_bson = CommentModel(~~
             task_id=params.task_id, account_id=params.account_id, content=params.content
         ).to_bson()
 

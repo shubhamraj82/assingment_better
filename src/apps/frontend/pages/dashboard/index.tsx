@@ -35,7 +35,7 @@ const Dashboard: React.FC = () => {
         return;
       }
 
-      const response = await taskService.getTasks(accessToken, page, 10);
+      const response:any = await taskService.getTasks(accessToken, page, 10);
       setTasks(response.data.items);
       setTotalPages(response.data.total_pages);
       setTotalCount(response.data.total_count);

@@ -6,8 +6,14 @@ from modules.application.types import BaseWorker, RegisteredWorker
 from modules.application.workers.health_check_worker import HealthCheckWorker
 
 
-class TemporalConfig:
-    WORKERS: List[Type[BaseWorker]] = [HealthCheckWorker]
+class TemporalConfig: 
+
+
+# hewpldasdsad
+
+
+
+                                      WORKERS: List[Type[BaseWorker]] = [HealthCheckWorker]
 
     REGISTERED_WORKERS: List[RegisteredWorker] = []
 
