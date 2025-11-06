@@ -20,7 +20,7 @@ from scripts.bootstrap_app import BootstrapApp
 load_dotenv()
 
 app = Flask(__name__)
-cors = CORS(app, resources={r"/*": {"origins": "http://localhost:4000"}})
+cors = CORS(app, resources={r"/*": {"origins": "http://localhost:4001"}})
 
 # Mount deps
 LoggerManager.mount_logger()

@@ -6,7 +6,7 @@ is_server_running_behind_proxy: false
 mongodb:
   connection_caching: true
 
-web_app_host: 'http://localhost:4000'
+web_app_host: 'http://localhost:4001'
 
 logger:
   transports: ['console']
